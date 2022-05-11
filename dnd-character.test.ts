@@ -66,7 +66,7 @@ describe("Ability modifier", () => {
   });
 });
 
-describe.only("Ability generator", () => {
+describe("Ability generator", () => {
   it("Random ability is within range", () => {
     const abilityScore = DnDCharacter.generateAbilityScore();
     expect(abilityScore).toBeGreaterThanOrEqual(3);
